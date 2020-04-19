@@ -1,9 +1,10 @@
-* {
+*{
   box-sizing: border-box;
   font-family: Comic Sans MS;
   
+  
 }
-h1 {
+h1{
   margin-bottom: 70px;
   text-align: center;
 }
@@ -33,9 +34,8 @@ h2{
 #beef,#chicken,#fish{
   background-color: grey;
   border: 1px solid black;
-  width:95%;
-  margin-right: auto;
-  margin-left: auto;
+  margin:10px;
+  
   margin-bottom: 30px
 }
 
@@ -144,10 +144,9 @@ p {
     width: 91.66%;
   }
   .col-md-12 {
-    width: 102.5%;
+    width: 100%;
 
-    margin-left: -11.737px;
-    margin-right: -11.737px;
+    
     
 }
     
