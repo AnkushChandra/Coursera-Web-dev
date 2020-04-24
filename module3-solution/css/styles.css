@@ -1,0 +1,87 @@
+body {
+  font-size: 16px;
+  color:#fff;
+  background-color: #5cdb95;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  background-color: #05386b;
+  border-radius: 0;
+  border-bottom:2px solid black;
+
+}
+.navbar-brand h1 { /* Restaurant name */
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar .navbar-toggler {
+  border-color:  white ;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#menu-categories-title{
+ color:black;
+ margin-top: 20px;
+}
+
+#mainbox{
+  background-color: #379683;
+  height:1000px;
+}
+#mainbox h3{
+  padding:10px;
+
+}
+
+#mainbox p {
+  
+  font-size: 1.25em;
+
+}
+#mainbox  {
+  
+  overflow: hidden;
+
+}
+#main-content .row{
+  
+margin:10px;
+}
+#main-content h2{
+  font-weight: bold;
+}
+.nav-item i{
+  padding:5px;
+}
+.nav-item a:hover{
+  background-color: #8ee4af
+}
+.nav-link.active
+{
+  background-color: #8ee4af
+}
+@media (max-width: 576px) {
+.navbar 
+{
+  padding-right:0;
+  padding-left:0;
+}
+.navbar-brand h1 { 
+padding-left: 16px;
+padding-right:16px;
+  }
+.navbar-toggler{
+  margin-right: 16px;
+}
+}
