@@ -71,7 +71,7 @@ margin:10px;
 {
   background-color: #8ee4af
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
 .navbar 
 {
   padding-right:0;
